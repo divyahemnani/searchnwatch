@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 *{
     box-sizing: border-box;
@@ -16,20 +16,38 @@ body{
 }
 
 header{
-    padding: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--secondary-color);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
+    
+}
+h1{
+    color: #fff;
+    
+}
+
+form{
+    float: right;
 }
 
 .search{
+    margin-left: 350%;
+    justify-content: flex-start;
     background-color: transparent;
-    border: 2px solid var(--primary-color);
-    padding: 0.5rem 1rem;
+    border: 2px solid rgb(94, 35, 204);
+    padding: 0.5rem 1rem ;
+    padding-block: 0.5rem;
+    text-align: center;
+    
     border-radius: 50px;
     font-size: 1rem;
     color: #fff;
-    font-family: inherit;
+    font-family: Georgia(serif) ;
+    font weight: 20px;
+
 }
 
 .search:focus{
@@ -40,6 +58,7 @@ header{
 
 .search::placeholder{
     color: #7378c5;
+    font-size: 30px;
 
 }
 
