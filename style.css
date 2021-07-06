@@ -57,8 +57,10 @@ form{
 }
 
 .search::placeholder{
-    color: #7378c5;
-    font-size: 30px;
+    color: grey;
+    font-size: 20px;
+    justify-self: center;
+    text-align: center;
 
 }
 
